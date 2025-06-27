@@ -64,7 +64,7 @@ deno run -A npm:create-fuwari@latest
 title: โพสต์แรกของฉัน
 published: 2023-09-09
 description: นี่คือโพสต์แรกของเว็บบล็อก Astro อันใหม่ของฉัน
-image: ./cover.jpg
+image: ./SM_particle_table.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false

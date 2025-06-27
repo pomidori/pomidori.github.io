@@ -139,3 +139,7 @@
 .collapsed {
     height: var(--collapsedHeight);
 }
+
+a {
+    text-decoration: none !important;
+}

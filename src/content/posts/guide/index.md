@@ -2,7 +2,7 @@
 title: Simple Guides for Fuwari
 published: 2024-04-01
 description: "How to use this blog template."
-image: "./cover.jpeg"
+image: "./SM_particle_table.jpg"
 tags: ["Fuwari", "Blogging", "Customization"]
 category: Guides
 draft: false
@@ -19,7 +19,7 @@ This blog template is built with [Astro](https://astro.build/). For the things t
 title: My First Blog Post
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg
+image: ./SM_particle_table.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
@@ -46,6 +46,6 @@ Your post files should be placed in `src/content/posts/` directory. You can also
 src/content/posts/
 ├── post-1.md
 └── post-2/
-    ├── cover.png
+    ├── SM_particle_table.png
     └── index.md
 ```

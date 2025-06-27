@@ -63,7 +63,7 @@ deno run -A npm:create-fuwari@latest
 title: 내 첫 블로그 게시물
 published: 2023-09-09
 description: 내 새로운 Astro 블로그의 첫 번째 게시물입니다!
-image: /images/cover.jpg
+image: /images/SM_particle_table.png
 tags: [푸, 바, 오]
 category: 앞-끝
 draft: false
