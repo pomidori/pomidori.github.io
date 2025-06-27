@@ -268,7 +268,7 @@ console.log(&apos;I am on line 6&apos;)
 title: My First Blog Post
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg
+image: ./SM_particle_table.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
@@ -317,7 +317,7 @@ draft: false
 &lt;pre&gt;&lt;code&gt;src/content/posts/
 ├── post-1.md
 └── post-2/
-    ├── cover.png
+    ├── SM_particle_table.png
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Markdown Example</title><link>https://fuwari.vercel.app/posts/markdown/</link><guid isPermaLink="true">https://fuwari.vercel.app/posts/markdown/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;An h1 header&lt;/h1&gt;
@@ -456,10 +456,8 @@ published: 2023-10-19
 // ...
 ---
 
-&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/LIsm4waKXEY?si=ewaWAjdg8wxngHP4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;YouTube&lt;/h2&gt;
-&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
-&lt;h2&gt;Bilibili&lt;/h2&gt;
-&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&amp;amp;p=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/LIsm4waKXEY?si=ewaWAjdg8wxngHP4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 </content:encoded></item></channel></rss>
