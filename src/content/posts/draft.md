@@ -1,6 +1,6 @@
 ---
-title: Draft Example
-published: 2022-07-01
+title: Example
+published: 2025-10-07
 tags: [Markdown, Blogging, Demo]
 category: Examples
 draft: true
@@ -11,6 +11,10 @@ draft: true
 This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
 
 When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
+
+$$
+\frac{1}{2\pi}
+$$
 
 ```markdown
 ---

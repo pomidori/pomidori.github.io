@@ -46,10 +46,10 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <span>
     <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">B.A., <a href="https://www.pitzer.edu/" target="_blank" rel="noopener">Pitzer College</a>
+    <span style="margin-left: 0.5em;">B.A., <a href="https://www.pitzer.edu/" target="_blank" rel="noopener">Pitzer College</a> (one of the <a href="https://www.claremont.edu/" target="_blank" rel="noopener">Claremont Colleges</a>)
     </span>
   </span>
-  <span>09.2009 ~ 05.2009</span>
+  <span>09.2009 ~ 05.2013</span>
 </div>
 <div style="margin-left: 1.2em; color: #888;">Double Major in Physics and Mathematics with Honors</div>
 
@@ -110,6 +110,70 @@ The patents under review with publication number and title:
     <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
     <span style="margin-left: 0.5em;">
     P2023-181086A, "Image Processing System, Image Processing Method, Image Processing Program."
+    </span>
+  </span>
+</div>
+
+
+### AWARDS AND CERTIFICATIONS
+<hr style="border: 0; height: 3px; background: var(--primary); margin: 1em 0;" />
+
+#### Awards
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    Claremont Graduate University Fellowship: 24,336 (USD)
+    </span>
+  </span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    Honors in Physics from Pitzer College
+    </span>
+  </span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    Nomination for Sigma Xi Scientific Honor Society
+    </span>
+  </span>
+</div>
+
+#### Certifications
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    SAP Certified Material Management Procurement with SAP ERP 6.0 EHP6
+    </span>
+  </span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    SAP Certified Integration with SAP ERP C_TERP10_67, SAP Certified Application Associate, Business Foundation and Integration with SAP ERP 6.07
+    </span>
+  </span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    SAP Certified Enterprise Architect SAPA200 - SAP Architecture Core Certification
+    </span>
+  </span>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>
+    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
+    <span style="margin-left: 0.5em;">
+    SAP Certified Enterprise Architect SAPA200 - SAP Architecture Core Certification
     </span>
   </span>
 </div>
