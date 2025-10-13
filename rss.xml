@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Midori Kato</title><description>Demo Site</description><link>https://pomidori.github.io/</link><language>en</language></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Midori Kato</title><description>Demo Site</description><link>https://pomidori.github.io/</link><language>en</language><item><title>Example</title><link>https://pomidori.github.io/posts/draft/</link><guid isPermaLink="true">https://pomidori.github.io/posts/draft/</guid><pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
+&lt;p&gt;This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.&lt;/p&gt;
+&lt;p&gt;When the article is ready for publication, you can update the &quot;draft&quot; field to &quot;false&quot; in the Frontmatter:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{1}{2\pi}
+$$&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: Draft Example
+published: 2024-01-11T04:40:26.381Z
+tags: [Markdown, Blogging, Demo]
+category: Examples
+draft: false
+---&lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item></channel></rss>
