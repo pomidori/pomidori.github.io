@@ -1,14 +1,165 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Midori Kato</title><description>Demo Site</description><link>https://pomidori.github.io/</link><language>en</language><item><title>Example</title><link>https://pomidori.github.io/posts/draft/</link><guid isPermaLink="true">https://pomidori.github.io/posts/draft/</guid><pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
-&lt;p&gt;This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.&lt;/p&gt;
-&lt;p&gt;When the article is ready for publication, you can update the &quot;draft&quot; field to &quot;false&quot; in the Frontmatter:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Midori Kato</title><description>Demo Site</description><link>https://pomidori.github.io/</link><language>en</language><item><title>Weinberg–Witten theorem</title><link>https://pomidori.github.io/posts/weinberg_witten_theorem/</link><guid isPermaLink="true">https://pomidori.github.io/posts/weinberg_witten_theorem/</guid><pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Statement of the Theorem&lt;/h1&gt;
+&lt;p&gt;The Weinberg–Witten theorem has two separate parts.&lt;/p&gt;
+&lt;h2&gt;Current Version&lt;/h2&gt;
+&lt;p&gt;If a Lorentz-covariant conserved current $J^\mu(x)$ exists, so that the global charge $Q=\int,d^3xJ^0$ is well defined and transforms covariantly (&lt;a href=&quot;#appendix-a&quot;&gt;Appendix A&lt;/a&gt;), then the theory cannot contain a massless one-particle state of helicity $h\gt 1/2$ that carries nonzero charge $q$ under $Q$. In other words, there are no charged massless particles with spin $\gt 1/2$.&lt;/p&gt;
+&lt;h2&gt;Stress-energy Version&lt;/h2&gt;
+&lt;p&gt;If there is a Lorentz-covariant, conserved stress-energy tensor $T^{\mu\nu}(x)$, so that the 4-momentum $P^\mu=\int,d^3xT^{0\mu}$ is well defined and covariant, then the theory cannot contain a massless one-particle state of helicity $h\gt1$ that carries nonzero momentum charge, i.e. a particle that transforms nontrivially under translations. In other words, a massless particle of helicity $\gt 1$ cannot have a Lorentz-covariant energy-momentum current.&lt;/p&gt;
+&lt;h3&gt;Proof:&lt;/h3&gt;
+&lt;p&gt;Assume a covariant conserved current $J^\mu$ exists and that there is a massless one-particle state $|p, h\rangle$ with helicity $h\gt 1/2$ carrying charge $q$ under $Q$. We will show that this leads to a contradiction. We are going to achieve this by first computing a matrix element:&lt;/p&gt;
 &lt;p&gt;$$
-\frac{1}{2\pi}
-$$&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: Draft Example
-published: 2024-01-11T04:40:26.381Z
-tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: false
----&lt;/code&gt;&lt;/pre&gt;
+\begin{align}
+\langle p&apos;, h&apos;|\hat{Q}|p, h\rangle
+&amp;amp;=\int,d^3x\langle p&apos;, h&apos;|J^0(0, \mathbf{x})|p, h\rangle\
+&amp;amp;=\int,d^3x\langle p&apos;, h&apos;|e^{i\hat{\mathbf{p}}\cdot\hat{\mathbf{x}}}J^0(0, \mathbf{0})e^{-i\hat{\mathbf{p}}\cdot\hat{\mathbf{x}}}|p, h\rangle \quad \text{$\hat{\mathbf{p}}, \hat{\mathbf{x}}$ acting on the states}\
+&amp;amp;=\underbrace{\int,d^3xe^{i(\mathbf{p}-\mathbf{p&apos;})\cdot\mathbf{x}}}&lt;em&gt;{\text{Fourier Transform}}\langle p&apos;, h&apos;|J^0(0, \mathbf{0})|p, h\rangle\
+&amp;amp;=(2\pi)^3\delta^{(3)}(\mathbf{p}-\mathbf{p&apos;})\langle p&apos;, h&apos;|J^0(0, \mathbf{0})|p, h\rangle.
+\end{align}
+$$
+Since $\hat{Q}|p, h\rangle=q|p, h\rangle$ (usually $q$ is omitted in the state description because it is conserved by assumption),
+$\langle p&apos;, h&apos;|\hat{Q}|p, h\rangle=q\delta^{(3)}(\mathbf{p}-\mathbf{p&apos;})\delta&lt;/em&gt;{hh&apos;}$. Then, comparing both sides,
+$$
+\begin{equation}
+\langle p&apos;, h&apos;|J^0(0, \mathbf{0})|p, h\rangle=\frac{q}{(2\pi)^3}\delta_{hh&apos;}
+\end{equation}
+$$
+where the value is divided by $(2\pi)^3$ for the normalization. Now extend this to the four-vector (&lt;a href=&quot;#appendix-b&quot;&gt;Appendix B&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;&amp;lt;a id=&quot;eq-current-matrix-element&quot;&amp;gt;&amp;lt;/a&amp;gt;
+$$
+\begin{equation}
+\langle p&apos;, h&apos;|J^\mu(0)|p, h\rangle \xrightarrow{p&apos; \to p} \frac{qp^\mu}{(2\pi)^3p^0}\delta_{hh&apos;}.
+\end{equation}
+$$
+Next, let&apos;s see what rotational invariance has to say about the same matrix element. The plan is the following. The limit above tells us that the matrix element must survive as $p&apos;\to p$. We will show that for $h\gt 1/2$ Lorentz covariance forces it to vanish, and the two statements cannot coexist unless $q=0$. Note that the $\delta_{hh&apos;}$ obtained above allows us to set $h&apos;=h$ from now on.&lt;/p&gt;
+&lt;p&gt;Take two lightlike momenta $p\neq p&apos;$ that are not collinear. Their sum is then timelike, since
+$$
+\begin{equation}
+(p+p&apos;)^2=2p\cdot p&apos;\neq 0,
+\end{equation}
+$$
+so we can go to the center-of-momentum frame in which the two spatial momenta are back to back:
+$$
+\begin{equation}
+\mathbf{p}&apos;=-\mathbf{p}, \quad \hat{\mathbf{z}}\equiv\hat{\mathbf{p}}.
+\end{equation}
+$$
+Now perform a rotation $R_\theta$ by an angle $\theta$ about this common axis. A massless one-particle state is a helicity eigenstate, and a rotation about its own momentum direction produces only a phase:
+$$
+\begin{equation}
+U(R_\theta)|p, h\rangle=e^{ih\theta}|p, h\rangle.
+\end{equation}
+$$
+For the primed state the same rotation is a rotation by $-\theta$ about $\hat{\mathbf{p}}&apos;=-\hat{\mathbf{p}}$, hence
+$$
+\begin{equation}
+U(R_\theta)|p&apos;, h\rangle=e^{-ih\theta}|p&apos;, h\rangle.
+\end{equation}
+$$
+The two phases do not cancel between the bra and the ket — they add up. Inserting $U^\dagger(R_\theta)U(R_\theta)=1$ on both sides of the current and using that $J^\mu$ transforms as a four-vector, $U(R_\theta)J^\mu(0)U^\dagger(R_\theta)=(R_\theta^{-1})^\mu_\nu J^\nu(0)$,
+$$
+\begin{align}
+\langle p&apos;, h|J^\mu(0)|p, h\rangle
+&amp;amp;=\langle p&apos;, h|U^\dagger(R_\theta)\big(U(R_\theta)J^\mu(0)U^\dagger(R_\theta)\big)U(R_\theta)|p, h\rangle\
+&amp;amp;=e^{ih\theta},e^{ih\theta},(R_\theta^{-1})^\mu_\nu\langle p&apos;, h|J^\nu(0)|p, h\rangle\
+&amp;amp;=e^{2ih\theta}(R_\theta^{-1})^\mu_\nu\langle p&apos;, h|J^\nu(0)|p, h\rangle,
+\end{align}
+$$
+or, equivalently,
+$$
+\begin{equation}
+(R_\theta)^\mu_\nu\langle p&apos;, h|J^\nu(0)|p, h\rangle=e^{2ih\theta}\langle p&apos;, h|J^\mu(0)|p, h\rangle.
+\end{equation}
+$$
+Read as a statement of linear algebra, this says that the four-component object $\langle p&apos;, h|J^\mu(0)|p, h\rangle$ is an eigenvector of the rotation matrix $R_\theta$ with eigenvalue $e^{2ih\theta}$. But a rotation about the $z$-axis acting on a four-vector has eigenvalues
+$$
+\begin{equation}
+{1, 1, e^{i\theta}, e^{-i\theta}},
+\end{equation}
+$$
+where the first two belong to the $t$ and $z$ components and the last two to the combinations $J^1\mp iJ^2$. A nonvanishing matrix element therefore requires
+$$
+\begin{equation}
+e^{2ih\theta}\in{1, e^{i\theta}, e^{-i\theta}} \quad \text{for all } \theta,
+\end{equation}
+$$
+i.e. $|2h|\le 1$. For $h\gt 1/2$ none of the eigenvalues can be matched, so every component must vanish:
+$$
+\begin{equation}
+\langle p&apos;, h|J^\mu(0)|p, h\rangle=0 \quad \text{for all non-collinear } p\neq p&apos;.
+\end{equation}
+$$
+Taking the limit $p&apos;\to p$ of this vanishing quantity and comparing with the limit &lt;a href=&quot;#eq-current-matrix-element&quot;&gt;computed above&lt;/a&gt;, we are forced to conclude
+$$
+\begin{equation}
+\frac{qp^\mu}{(2\pi)^3p^0}=0,
+\end{equation}
+$$
+i.e. $q=0$. This contradicts the assumption that the particle carries a nonzero charge, and the current version of the theorem follows. (Strictly speaking, the limit should be taken with wave packets rather than plane-wave states. This is how the original paper (&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;) handles it, and the conclusion is unchanged.)&lt;/p&gt;
+&lt;p&gt;&amp;lt;div style=&quot;text-align: right;&quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;$\blacksquare$&lt;/p&gt;
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;The stress-energy version goes through the same steps with $T^{\mu\nu}$ in place of $J^\mu$. The analogue of the limit above is
+$$
+\begin{equation}
+\langle p&apos;, h|T^{\mu\nu}(0)|p, h\rangle \xrightarrow{p&apos; \to p} \frac{p^\mu p^\nu}{(2\pi)^3p^0},
+\end{equation}
+$$
+which cannot vanish, because this time the &quot;charge&quot; is the four-momentum itself and every particle carries it. On the other hand, $T^{\mu\nu}$ has two vector indices, so under the back-to-back rotation the eigenvalues now range over $e^{ik\theta}$ with $k\in{0, \pm1, \pm2}$, and a nonvanishing matrix element requires $|2h|\le 2$, i.e. $h\le 1$. Hence a massless particle of helicity $h\gt 1$ — the graviton being the obvious candidate — cannot appear in any theory equipped with a Lorentz-covariant conserved stress-energy tensor.&lt;/p&gt;
+&lt;p&gt;&amp;lt;div style=&quot;text-align: right;&quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;$\blacksquare$&lt;/p&gt;
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;It is worth pausing on why familiar theories evade the theorem. Gluons ($h=1$) do carry color charge, but the color current of Yang–Mills theory is not gauge invariant, so no Lorentz-covariant conserved current satisfies the hypothesis. General relativity escapes the stress-energy version for a similar reason. The energy-momentum of the gravitational field cannot be localized covariantly, and the candidate currents are only pseudo-tensors. What the theorem genuinely forbids is an emergent, composite graviton in a Lorentz-invariant theory with a covariant conserved $T^{\mu\nu}$. Any attempt at emergent gravity must therefore give up at least one of these assumptions.&lt;/p&gt;
+&lt;h3&gt;Appendix A&lt;/h3&gt;
+&lt;p&gt;Let&apos;s quickly check the covariance of the global charge. For that purpose, introduce a Cauchy hypersurface $\Sigma$ with surface element $d\Sigma_\mu$, which points normal to the hypersurface and whose magnitude is the volume element of the slice. For example, if $\Sigma$ is a constant-time slice with $n_\mu=(1, 0, 0, 0)$, then $,d\Sigma_\mu=n_\mu,d^3x=(d^3x,0,0,0)$. Using it, we can define the global charge as $Q=\int,d^3xJ^0=\int_{\Sigma},d\Sigma_{\mu}J^{\mu}$. We are going to show the following two parts:&lt;/p&gt;
+&lt;h4&gt;A.1 $Q$ is independent of the choice of $\Sigma$&lt;/h4&gt;
+&lt;p&gt;Assuming locality of charges and fields, i.e. $Q=\int,d^3xJ^0\lt\infty$, and using the continuity equation $\partial_\mu J^\mu = 0$,
+$$
+\begin{align}
+Q(\Sigma_j)-Q(\Sigma_i)&amp;amp;=\int_{\Sigma_j},d\Sigma_\mu J^\mu-\int_{\Sigma_i},d\Sigma_\mu J^\mu + 0\
+&amp;amp;=\int_{\Sigma_j},d\Sigma_\mu J^\mu + \int_{-\Sigma_i},d\Sigma_\mu J^\mu + \underbrace{\int_{\text{sides at infinity}} d\Sigma_\mu J^\mu}&lt;em&gt;{= 0 \text{ if } J^\mu \to 0, \text{as}, |x|\to \infty}\
+&amp;amp;=\int&lt;/em&gt;{\partial V},d\Sigma_\mu J^\mu \quad \text{by Gauss&apos;s theorem}\
+&amp;amp;=\int_{V},d^4x\partial_\mu J^\mu \quad \text{by } \partial_\mu J^\mu = 0\
+&amp;amp;=0.
+\end{align}
+$$
+Hence the global charge is independent of the choice of hypersurface.&lt;/p&gt;
+&lt;h4&gt;A.2 Lorentz covariance of $Q$&lt;/h4&gt;
+&lt;p&gt;Consider a Lorentz transformation $x&apos;^\mu=\Lambda^\mu_\nu x^\nu$ and $J&apos;^\mu(x&apos;)=\Lambda^\mu_\rho J^\rho(x)$. Then
+$$
+\begin{align}
+Q&apos;&amp;amp;=\int_{\Sigma&apos;},d\Sigma&apos;&lt;em&gt;\mu J&apos;^\mu(x&apos;)\
+&amp;amp;=\int&lt;/em&gt;{\Sigma}(\Lambda_\mu^\nu,d\Sigma_\nu)(\Lambda^\mu_\rho J^\rho)\
+&amp;amp;=\int_{\Sigma},d\Sigma_\nu\underbrace{(\Lambda_\mu^\nu\Lambda_\rho^\mu)}&lt;em&gt;{=\delta^\nu&lt;/em&gt;\rho}J^\rho\
+&amp;amp;=\int_{\Sigma},d\Sigma_\nu J^\nu\
+&amp;amp;=Q.
+\end{align}
+$$
+Combining A.1 and A.2, the covariance of the global charge is proved.&lt;/p&gt;
+&lt;h3&gt;Appendix B&lt;/h3&gt;
+&lt;p&gt;In the process of extending the $J^0$ result to the full $J^\mu$ expression, let us first introduce an important identity called the Ward–Takahashi identity.&lt;/p&gt;
+&lt;h4&gt;B.1 Ward–Takahashi Identity&lt;/h4&gt;
+&lt;p&gt;We are going to show $q_\mu\langle p&apos;|J^\mu|p\rangle=0$, with $q^\mu=p^\mu-p&apos;^\mu$, using the current conservation $\partial_\mu J^\mu=0$.
+Observe
+$$
+\begin{align}
+0
+&amp;amp;=\langle p&apos;|\partial_\mu J^\mu(0)|p\rangle\
+&amp;amp;=\langle p&apos;|\partial_\mu (e^{i(p-p&apos;)\cdot x}J^\mu(0))|p\rangle\
+&amp;amp;=i(p-p&apos;)&lt;em&gt;\mu e^{i(p-p&apos;)\cdot x}\langle p&apos;|J^\mu(0)|p\rangle + \langle p&apos;|e^{i(p-p&apos;)\cdot x}\underbrace{\partial&lt;/em&gt;\mu J^\mu(0)}&lt;em&gt;{=0}|p\rangle\
+&amp;amp;=iq&lt;/em&gt;\mu \underbrace{e^{i(p-p&apos;)\cdot x}}_{\neq 0}\langle p&apos;|J^\mu(0)|p\rangle.
+\end{align}
+$$
+We can factor out the exponential factor to arrive at the identity.&lt;/p&gt;
+&lt;h4&gt;B.2 Extending to the four-vector&lt;/h4&gt;
+&lt;p&gt;Given a massless one-particle state, Lorentz covariance and the available momenta imply that, for a fixed helicity, we can generally write the matrix element as:
+$$
+\begin{equation}
+\langle p&apos;, h|J^\mu(0)|p, h\rangle
+=A(p, p&apos;)p^\mu + B(p, p&apos;)p&apos;^\mu + C(p, p&apos;)q^\mu
+\end{equation}
+$$
+with some coefficients $A, B, C$ and $q^\mu=p^\mu-p&apos;^\mu$.&lt;/p&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;S. Weinberg and E. Witten, &quot;Limits on Massless Particles,&quot; &lt;em&gt;Phys. Lett. B&lt;/em&gt; &lt;strong&gt;96&lt;/strong&gt; (1980) 59–62. &lt;a href=&quot;https://doi.org/10.1016/0370-2693(80)90212-9&quot;&gt;doi:10.1016/0370-2693(80)90212-9&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </content:encoded></item></channel></rss>
