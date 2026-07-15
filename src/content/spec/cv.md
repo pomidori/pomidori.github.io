@@ -53,67 +53,106 @@
 </div>
 <div style="margin-left: 1.2em; color: #888;">Double Major in Physics and Mathematics with Honors</div>
 
+### PUBLICATIONS
+<hr style="border: 0; height: 3px; background: var(--primary); margin: 1em 0;" />
+
+Under Constructions
+
 
 ### PATENTS
 <hr style="border: 0; height: 3px; background: var(--primary); margin: 1em 0;" />
 
-The patents issued by the Japan Patent Office (JPO) with patent number and title:
+The patents issued by the Japan Patent Office (JPO):
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P7400546, "Driving Support Control Device, Parking Frequency Distribution Model Creation Method, Driving Support Control Program."
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    Title: "Information Collection Device, Information Distribution Device, and Subscription Device."<br>
+    JP Application No. 2023-122814, filed Jul 27 2023, published Feb 6 2025.<br>
+    Assignee: Denso Corporation. Status: <span style="color: red;">Before Examination</span>.
   </span>
 </div>
   
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P7396123, "Driving Support Control Device, Stop and Parking Restriction Zone Creation Method, Driving Support Control Program."
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    Title: “Remote Support System, Remote Support Method, Remote Support Program, Control Device, Control Method, and Control Program.”<br>
+    JP Application No. 2023-098673, filed Jun 15 2023, published Dec 26 2024.<br>
+    Assignee: Denso Corporation. Status: <span style="color: orange;">Under Examination</span>.
   </span>
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P7167958, "Vehicle Control Assistance Device, Vehicle Control Assistance Method, and Vehicle Control Assistance Program."
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Information Processing Method, Information Processing Device, and Display System.”<br>
+    JP Application No. 2022-127166, filed Aug 9 2022, published Feb 22 2024.<br>
+    Assignee: Denso Corporation. Status: <span style="color: orange;">Under Examination</span>.<br>
   </span>
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P7354905, "Driving Assistance Request Device"
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Processing System, Processing Method, Processing Device, and Program.”<br>
+    JP Application No. 2023-113075, filed Jul 10 2023, published Feb 1 2024.<br>
+    Assignee: Denso Corporation. Status: <span style="color: orange;">Under Examination</span>.<br>
   </span>
 </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P7287342, "Eectronic Control Device"
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Image Processing System, Image Processing Method, and Image Processing Program.”<br>
+    JP Application No. 2023-071013, filed Apr 24 2023, published Dec 21 2023.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
   </span>
 </div>
 
-The patents under review with publication number and title:
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>
-    <span style="color: var(--primary); font-size: 1.2em; font-weight: bold;">&#8226;</span>
-    <span style="margin-left: 0.5em;">
-    P2023-181086A, "Image Processing System, Image Processing Method, Image Processing Program."
-    </span>
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Electronic Control Device.”<br>
+    JP Application No. 2020-084277, filed May 13 2020, published Nov 18 2021.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
   </span>
 </div>
 
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Driving Support Request Device.”<br>
+    JP Application No. 2020-066103, filed Apr 1 2020, published Oct 11 2021.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
+  </span>
+</div>
+
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Driving Support Device, Driving Support Method, and Driving Support Program.”<br>
+    JP Application No. 2020-056784, filed Mar 26 2020, published Oct 7 2021.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
+  </span>
+</div>
+
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Driving Support Control Device, No-Parking/Stopping Zone Creation Method, and Driving Support Control Program.”<br>
+    JP Application No. 2020-035132, filed Mar 2 2020, published Sep 16 2021.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
+  </span>
+</div>
+
+<div style="display: flex; align-items: flex-start;">
+  <span style="color: var(--primary); font-size: 1.2em; font-weight: bold; flex-shrink: 0;">&#8226;</span>
+  <span style="margin-left: 0.5em; flex: 1;">
+    “Driving Support Control Device, Parking Frequency Distribution Model Creation Method, and Driving Support Control Program.”<br>
+    JP Application No. 2020-035131, filed Mar 2 2020, published Sep 16 2021.<br>
+    Assignee: Denso Corporation. Status: <span style="color: green;">Active</span>.<br>
+  </span>
+</div>
 
 ### AWARDS AND CERTIFICATIONS
 <hr style="border: 0; height: 3px; background: var(--primary); margin: 1em 0;" />
