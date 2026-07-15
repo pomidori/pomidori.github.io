@@ -147,6 +147,10 @@ const bannerOffset =
 
 		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
 
+		<!-- TikZJax for rendering TikZ diagrams -->
+		<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+		<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
 	</head>
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
